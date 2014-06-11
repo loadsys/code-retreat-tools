@@ -54,7 +54,7 @@ Before the retreat:
 	* **No code is to be preserved!** At the end of each session, all artifacts are permanently deleted.
 
 
-== Usage
+## Usage
 
 During the retreat, you can use this local repo as a base of operations.
 
