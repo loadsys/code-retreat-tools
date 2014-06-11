@@ -14,6 +14,6 @@ class DemoTest extends PHPUnit_Framework_TestCase {
 		// Act
 
 		// Assert
-		$this->assertEquals('demo string', $this->Demo->demoMethod());
+		$this->assertEquals('demo response', $this->Demo->demoMethod());
 	}
 }
