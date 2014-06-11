@@ -1,0 +1,24 @@
+{
+  "name": "code-retreat-tools",
+  "version": "0.0.0",
+  "description": "Installs tools for code retreat test runners",
+  "main": "index.js",
+  "scripts": {
+    "autotest": "./node_modules/.bin/supervisor -q -n exit -x ./node_modules/.bin/mocha -- -R nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/loadsys/code-retreat-tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loadsys/code-retreat-tools/issues"
+  },
+  "homepage": "https://github.com/loadsys/code-retreat-tools",
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.20.1",
+    "supervisor": "~0.6.0"
+  }
+}
