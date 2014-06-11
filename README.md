@@ -1,9 +1,9 @@
-= Code Retreat Tools
+# Code Retreat Tools
 
 A set of scripts and tools for jumping into a Code Retreat using PHP, Ruby and node.js quickly.
 
 
-== Setup
+## Setup
 
 Before the retreat:
 
@@ -12,7 +12,7 @@ Before the retreat:
 * Install any missing interpreters or unit testing frameworks using [MacPorts](http://www.macports.org/), [Homebrew](http://brew.sh/) or whatever else is appropriate.
 
 
-== Code Retreat Homework
+## Code Retreat Homework
 
 * Familiarize yourself with the rules to [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life).
 
