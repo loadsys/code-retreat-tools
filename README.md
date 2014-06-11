@@ -15,11 +15,11 @@ Before the retreat:
 
 * Then check the following language-specific READMEs for additional install steps:
 
-	* [php](php/README.md)
+	* [php](php/)
 
-	* [ruby](ruby/README.md)
+	* [ruby](ruby/)
 
-	* [node](node/README.md)
+	* [node](node/)
 
 
 ## Code Retreat Homework
