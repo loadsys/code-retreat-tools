@@ -1,0 +1,14 @@
+{
+    "name": "loadsys/code-retreat-tools",
+    "description": "A set of scripts and tools for jumping into a Code Retreat using PHP, Ruby and node.js quickly.",
+    "require-dev": {
+        "php": ">=5.4.0",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "license": "MIT",
+    "autoload": {
+       "psr-0": {
+            "CodeRetreat": "lib/"
+        }
+    }
+}

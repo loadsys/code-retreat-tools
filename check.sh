@@ -29,9 +29,10 @@ if (isset($argv[1]) && $argv[1] == '-h') {
 // main()
 $apps = array(
 	'php' => '5.4',
-	'phpunit' => '3.7',
+	'composer' => 'latest',
+
 	'ruby' => '2',
-	'grunt' => '0.1',
+
 	'node' => '0.10',
 	'npm' => '1.4',
 );

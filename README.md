@@ -8,8 +8,18 @@ A set of scripts and tools for jumping into a Code Retreat using PHP, Ruby and n
 Before the retreat:
 
 * Cone this repo: `git clone git@github.com:loadsys/code-retreat-tools.git ; cd code-retreat-tools`
+
 * Run `./check.sh` to make sure you have the necessary programming languages and unit testing tools installed.
+
 * Install any missing interpreters or unit testing frameworks using [MacPorts](http://www.macports.org/), [Homebrew](http://brew.sh/) or whatever else is appropriate.
+
+* Then check the following language-specific READMEs for additional install steps:
+
+	* [php](php/README.md)
+
+	* [ruby](ruby/README.md)
+
+	* [node](node/README.md)
 
 
 ## Code Retreat Homework
@@ -42,4 +52,17 @@ Before the retreat:
 	* Pairs swap/mix-up after every session.
 	
 	* **No code is to be preserved!** At the end of each session, all artifacts are permanently deleted.
+
+
+== Usage
+
+During the retreat, you can use this local repo as a base of operations.
+
+* Run `git reset --hard HEAD` to wipe any changes from the last session.
+
+* `cd` into the language folder you are going to use for your next session.
+
+* Create new source files in the `lib/` folder and new test files in the `test/` or `spec/ folder.
+
+* The README.md file in the sub-directory will explain how to start a test-runner in your Terminal.
 
