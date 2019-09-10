@@ -7,7 +7,7 @@ function usage()
 	$script = basename(__FILE__);
 	echo <<<EOT
 
-${script}  
+${script}
     Checks for the necessary dependencies on your system.
 
     It's up to you to get them installed.
@@ -28,8 +28,8 @@ if (isset($argv[1]) && $argv[1] == '-h') {
 //----------
 // main()
 $apps = array(
-	'php' => '5.4',
-	'composer' => 'latest',
+	'php' => '7.3',
+	'composer' => '1.0',
 
 	'ruby' => '2',
 

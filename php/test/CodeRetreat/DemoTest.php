@@ -1,14 +1,20 @@
 <?php
+use PHPUnit\Framework\TestCase;
 
-class DemoTest extends PHPUnit_Framework_TestCase {
-	public function setUp() {
+class DemoTest extends TestCase
+{
+	public function setUp(): void
+	{
 		$this->Demo = new CodeRetreat\Demo();
 	}
-	public function tearDown() {
+
+	public function tearDown(): void
+	{
 		unset($this->Demo);
 	}
 
-	public function testDemoMethod() {
+	public function testDemoMethod()
+	{
 		// Arrange
 
 		// Act

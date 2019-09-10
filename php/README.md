@@ -5,9 +5,9 @@ Used [this fabulous project](https://github.com/jasdeepkhalsa/phpunit-skeleton) 
 ```shell
 composer install
 
-gem install kicker -s http://gemcutter.org
+gem install kicker
 
-#or
+# or
 
 gem install bundler # may need sudo depending on install
 bundle
