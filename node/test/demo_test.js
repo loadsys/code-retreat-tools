@@ -1,9 +1,8 @@
-var Demo = require('../lib/demo'),
-    expect = require('chai').expect;
+const Demo = require('../lib/demo');
 
-describe('Demo', function() {
-  it('.method', function() {
-    var demo = new Demo();
-    expect(demo.method()).to.equal('demo response');
+describe('Demo', () => {
+  it('.method does something', () => {
+    const demo = new Demo();
+    expect(demo.method()).toEqual('demo response');
   });
 });

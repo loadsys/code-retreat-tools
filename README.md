@@ -48,9 +48,9 @@ Before the retreat:
 	* All sessions consist of pair programming: two people sharing a single computer working together.
 
 	* Test Driven Development is strongly encouraged.
-	
+
 	* Pairs swap/mix-up after every session.
-	
+
 	* **No code is to be preserved!** At the end of each session, all artifacts are permanently deleted.
 
 
@@ -62,7 +62,7 @@ During the retreat, you can use this local repo as a base of operations.
 
 * `cd` into the language folder you are going to use for your next session.
 
-* Create new source files in the `lib/` folder and new test files in the `test/` or `spec/ folder.
+* Create new source files in the `lib/` folder and new test files in the `test/` or `spec/` folder.
 
 * The README.md file in the sub-directory will explain how to start a test-runner in your Terminal.
 

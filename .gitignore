@@ -29,3 +29,5 @@ php/.phpunit.result.cache
 Gemfile.lock
 
 composer.lock
+
+package-lock.json

@@ -33,8 +33,8 @@ $apps = array(
 
 	'ruby' => '2.4',
 
-	'node' => '0.10',
-	'npm' => '1.4',
+	'node' => '10.16',
+	'npm' => '6.0',
 );
 
 foreach ($apps as $executable => $versionNumber) {
