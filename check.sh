@@ -10,7 +10,7 @@ function usage()
 ${script}
     Checks for the necessary dependencies on your system.
 
-    It's up to you to get them installed.
+    It is up to you to get them installed. :-)
 
 Usage:
     ./${script}
@@ -31,7 +31,7 @@ $apps = array(
 	'php' => '7.3',
 	'composer' => '1.0',
 
-	'ruby' => '2',
+	'ruby' => '2.4',
 
 	'node' => '0.10',
 	'npm' => '1.4',

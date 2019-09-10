@@ -25,3 +25,7 @@ build/Release
 node_modules
 
 php/.phpunit.result.cache
+
+Gemfile.lock
+
+composer.lock
